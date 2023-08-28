@@ -19,6 +19,9 @@ nav {
     justify-content: space-around;
     background-color: rgba(236, 210, 9, 0.965);
 }
+nav, footer {
+    border-radius: 20px;
+}
 nav > a {
     margin: 4px 0;
     padding: 10px 10px;
@@ -27,6 +30,11 @@ nav > a {
 }
 nav > a:hover {
     background-color: #ddd;
+    border-radius: 20px;
+}
+.contenedor {
+    width: 80%;
+    margin: auto;
 }
 .row {
     display: flex;
@@ -63,10 +71,30 @@ nav > a:hover {
     border-radius: 10px;
 }
 
+.iside {
+    margin: -20px 0 -20px 0;
+}
+
+p {
+    text-align: justify;
+}
 img {
     width: 100%;
+    border-radius: 20px;
 }
 
 footer {
     background-color: rgba(236, 210, 9, 0.965);
+}
+.main > p {
+    margin-bottom: 20px;
+}
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer > img {
+    width: 100px;
+    padding: 5px;
 }
